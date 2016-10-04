@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/pre-dexed/debug/com.android.support-design-24.2.1_3c035e0fd608544d9dfa17a232dae397e49ca8d8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="fa472b7cbd3897bf6bed6068ac0b00e494987688">
+        <dex dex="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-9.0.2_5b87242e418930ee2916adf9b0e4abce8e5c348f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-24.2.1_e22f6768206224c32681f930b3aa0f5a4df7427f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="79e298d7fed2fcada58da7032d07d34ee198a545">
+        <dex dex="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-module-9.0.2_9e0836e2f755beccbcf461fe7c11952fd6191477.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_7640a527cb1ebdb3fad0dac43bec7099421a7f95.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_398f70a2e5b952391c564c39d82d24005da06d67.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="aec1bc54964a85d851c2c1b1cb7f90f7dbd755ab">
+        <dex dex="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-9.0.2_f34a1a95da95c81dac617d6f7a00781e99891073.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="9819419ce8d79f3f81a0fc70f9345ac8c843af9c">
+        <dex dex="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-connection-9.0.2_3136cfcfe6e4a8a276c57f0520aecf261be30e43.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/chetan/android-sdk-linux/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.1_d3e2f3d4d925432e5a0d6878121adab912c93ff8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/chetan/.gradle/caches/modules-2/files-2.1/com.firebase/firebase-client-jvm/2.4.0/558e074f136fee609b8758480ecd00e286595137/firebase-client-jvm-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="558e074f136fee609b8758480ecd00e286595137">
+        <dex dex="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/pre-dexed/debug/firebase-client-jvm-2.4.0_249ace794e55b3a00859737c0c23a57265334c8c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_bb8cfdd4de2a99bdcd1080a10bff011fdce886a1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="4ec890171a97b5ab98292f131aa784e0f3792c73">
+        <dex dex="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-9.0.2_b330140e774b500613b6d449d89ad8510b96f661.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/chetan/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.2.2/3c8f6018eaa72d43b261181e801e6f8676c16ef6/jackson-databind-2.2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="3c8f6018eaa72d43b261181e801e6f8676c16ef6">
+        <dex dex="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/pre-dexed/debug/jackson-databind-2.2.2_228c2620f3901e523fbe9f8b3dd7819a633fa790.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_ebc15df7023156cffbd0dbf13c857da0dc355b7d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-24.2.1_d3af73d3c504d1c992037848b0716c35ee105181.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.1_b483064df7feaaafa5976237953738f8fa81a30a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="a511c684ea4c2cf31a3377d51e7677cb76696e07">
+        <dex dex="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-impl-9.0.2_61dbf3d6b171ff54480bcce054fe88d70cf15964.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="94d9cedd04b124aed044ac71c451a292856d854c">
+        <dex dex="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-9.0.2_f27a23d98f6d90ae23b05d69345ddfce4e049832.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.1_815ff7851fc90f6ff5d6894d4b30a2081f9bec95.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.1_08af7d2543d108a7b77cf42637af1c0e9139997f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="568d5bda0b4d51f90d978ace369bb9ad024d2057">
+        <dex dex="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-common-9.0.2_f024a62572208faf10f8d5bd74c670da17700b26.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f2774b1e02e5fbc524590311a744263c3b152d63">
+        <dex dex="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-messaging-9.0.2_a73551ce8101baf5090b43f5317704868b8963d7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/chetan/.gradle/caches/modules-2/files-2.1/com.firebase/firebase-client-android/2.4.0/f00bc767918ad9c89e5c13e25706d033a58e13c2/firebase-client-android-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f00bc767918ad9c89e5c13e25706d033a58e13c2">
+        <dex dex="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/pre-dexed/debug/firebase-client-android-2.4.0_67e642117b876114e68c98e335df8c370d3502fa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/chetan/.gradle/caches/modules-2/files-2.1/com.firebase/tubesock/0.0.12/6ec0bbd3e161a73ed672284b587fd32309a86d7a/tubesock-0.0.12.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="6ec0bbd3e161a73ed672284b587fd32309a86d7a">
+        <dex dex="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/pre-dexed/debug/tubesock-0.0.12_0505dbc9f388027bbe5dc5f842b7709c4348f48a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="b3d0809a742c5f768c6aa9efc6decd5c1d6cd227">
+        <dex dex="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-iid-9.0.2_5365b2d6068396884727cee52f7645ecfa94c80e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.1_73bbe4726cebf4d9d3a6e6906982893fabeda093.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.1_4d0f3689b123ba11ce8efdcbc9e3fe6f2a7e4f6d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="9919563cffd8e3732e944d3c437d4b9575a08448">
+        <dex dex="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-common-9.0.2_c9702638bfe7986e943d2ec4068bc19ee47ec859.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/chetan/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.2.2/285cb9c666f0f0f3dd8a1be04e1f457eb7b15113/jackson-annotations-2.2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="285cb9c666f0f0f3dd8a1be04e1f457eb7b15113">
+        <dex dex="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/pre-dexed/debug/jackson-annotations-2.2.2_3003645c895ca41fa01613f90ee91626d28a47d1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-24.2.1_800b3489989dc00dc3f5210c6362984b7881fe48.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.1_8d0b60033f5defd9bd848ca7bca10aa960a3bad5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.1_8bfb4be7c704fb5784f8b057ba33eacb1e7b21b2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_515fd7c47666a52bfc919ed9b83d66167867215c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="4022261eeea0d92eb2997a68d2c1f084a16abad9">
+        <dex dex="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-9.0.2_f0858f6d7794bad1e51735ca2e14c6f5cedc573d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/chetan/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.2.2/d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b/jackson-core-2.2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b">
+        <dex dex="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/pre-dexed/debug/jackson-core-2.2.2_011671b3c051ba7ee4aa4998338ea777499d448f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.0.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="51a11c41a08f099a204e1b8dcc04f27217de50ec">
+        <dex dex="/home/chetan/androidexample/FireBaseLogin/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-9.0.2_0dcca16a61b81e86bb930a8a195c0cff8f4fc0d8.jar" />
+    </item>
+
+</items>
