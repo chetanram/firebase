@@ -19,12 +19,13 @@ import com.google.firebase.auth.FirebaseUser;
 public class MainActivity extends AppCompatActivity {
 
     private Button btnChangeEmail, btnChangePassword, btnSendResetEmail, btnRemoveUser,
-            changeEmail, changePassword, sendEmail, remove, signOut,insert_data;
+            changeEmail, changePassword, sendEmail, remove, signOut, insert_data;
 
     private EditText oldEmail, newEmail, password, newPassword;
     private ProgressBar progressBar;
     private FirebaseAuth.AuthStateListener authListener;
     private FirebaseAuth auth;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,7 +42,6 @@ public class MainActivity extends AppCompatActivity {
         //get current user
         final FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
 
-
         authListener = new FirebaseAuth.AuthStateListener() {
             @Override
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
@@ -54,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         };
+
 
         btnChangeEmail = (Button) findViewById(R.id.change_email_button);
         btnChangePassword = (Button) findViewById(R.id.change_password_button);
@@ -85,6 +86,7 @@ public class MainActivity extends AppCompatActivity {
         if (progressBar != null) {
             progressBar.setVisibility(View.GONE);
         }
+
 
         btnChangeEmail.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -243,7 +245,7 @@ public class MainActivity extends AppCompatActivity {
         insert_data.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-              startActivity(new Intent(MainActivity.this,ReadWriteActivity.class));
+                startActivity(new Intent(MainActivity.this, ReadWriteActivity.class));
             }
         });
 
@@ -273,4 +275,6 @@ public class MainActivity extends AppCompatActivity {
             auth.removeAuthStateListener(authListener);
         }
     }
+
+
 }

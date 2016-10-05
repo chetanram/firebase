@@ -6,6 +6,7 @@ public class Person {
     public String key;
     public String name;
     public String address;
+    public String img_url;
 
     public Person() {
       /*Blank default constructor essential for Firebase*/
