@@ -19,7 +19,7 @@ import com.google.firebase.auth.FirebaseUser;
 public class MainActivity extends AppCompatActivity {
 
     private Button btnChangeEmail, btnChangePassword, btnSendResetEmail, btnRemoveUser,
-            changeEmail, changePassword, sendEmail, remove, signOut;
+            changeEmail, changePassword, sendEmail, remove, signOut,insert_data;
 
     private EditText oldEmail, newEmail, password, newPassword;
     private ProgressBar progressBar;
@@ -64,6 +64,7 @@ public class MainActivity extends AppCompatActivity {
         sendEmail = (Button) findViewById(R.id.send);
         remove = (Button) findViewById(R.id.remove);
         signOut = (Button) findViewById(R.id.sign_out);
+        insert_data = (Button) findViewById(R.id.insert_data);
 
         oldEmail = (EditText) findViewById(R.id.old_email);
         newEmail = (EditText) findViewById(R.id.new_email);
@@ -237,6 +238,12 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 signOut();
+            }
+        });
+        insert_data.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+              startActivity(new Intent(MainActivity.this,ReadWriteActivity.class));
             }
         });
 

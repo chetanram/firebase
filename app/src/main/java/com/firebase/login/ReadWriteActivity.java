@@ -1,6 +1,7 @@
 package com.firebase.login;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -23,7 +24,7 @@ public class ReadWriteActivity extends AppCompatActivity {
     private EditText editTextName;
     private EditText editTextAddress;
     private ListView listview;
-    private Button buttonSave;
+    private Button buttonSave,btn_back;
     static FirebaseAuth auth;
     DatabaseReference mDatabase;
     FirebaseDatabase firebaseDatabase;
@@ -45,12 +46,18 @@ public class ReadWriteActivity extends AppCompatActivity {
         ref = new Firebase(Config.FIREBASE_URL);
 
         buttonSave = (Button) findViewById(R.id.buttonSave);
+        btn_back = (Button) findViewById(R.id.btn_back);
         editTextName = (EditText) findViewById(R.id.editTextName);
         editTextAddress = (EditText) findViewById(R.id.editTextAddress);
 
         listview = (ListView) findViewById(R.id.listview);
 
-
+        btn_back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(ReadWriteActivity.this,MainActivity.class));
+            }
+        });
         mDatabase.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
@@ -69,8 +76,14 @@ public class ReadWriteActivity extends AppCompatActivity {
                 }
 
 
-                adapter = new ListViewAdapter(ReadWriteActivity.this, persons);
-                listview.setAdapter(adapter);
+                if(adapter==null) {
+                    adapter = new ListViewAdapter(ReadWriteActivity.this, persons);
+                    listview.setAdapter(adapter);
+                }
+                else
+                {
+                    adapter.notifyDataSetChanged();
+                }
             }
 
             @Override
