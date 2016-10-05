@@ -26,6 +26,7 @@
     <string name="btn_send">Send</string>
     <string name="btn_remove">Remove</string>
     <string name="btn_sign_out">Sign Out</string>
+    <string name="btn_insert_data">Insert Data</string>
     <string name="lbl_forgot_password">Forgot password?</string>
     <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
 </resources>

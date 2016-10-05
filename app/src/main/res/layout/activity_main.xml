@@ -172,6 +172,18 @@
                     android:textColor="@android:color/white"
                     android:textStyle="bold" />
 
+                <Button
+                    android:id="@+id/insert_data"
+                    style="?android:textAppearanceSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/colorPrimary"
+                    android:text="@string/btn_insert_data"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+
+
         </LinearLayout>
 
 </android.support.design.widget.CoordinatorLayout>
