@@ -76,8 +76,14 @@ public class ReadWriteActivity extends AppCompatActivity {
                 }
 
 
-                adapter = new ListViewAdapter(ReadWriteActivity.this, persons);
-                listview.setAdapter(adapter);
+                if(adapter==null) {
+                    adapter = new ListViewAdapter(ReadWriteActivity.this, persons);
+                    listview.setAdapter(adapter);
+                }
+                else
+                {
+                    adapter.notifyDataSetChanged();
+                }
             }
 
             @Override
