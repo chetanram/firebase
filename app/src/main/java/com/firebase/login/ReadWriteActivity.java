@@ -33,7 +33,7 @@ public class ReadWriteActivity extends AppCompatActivity {
     static FirebaseStorage storage;
     static StorageReference storageRef;
     DatabaseReference mDatabase;
-    FirebaseDatabase firebaseDatabase;
+
     Firebase ref;
     ArrayList<Person> persons = new ArrayList<Person>();
     ImageView img_user;
