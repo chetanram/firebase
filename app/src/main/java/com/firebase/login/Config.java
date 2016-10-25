@@ -7,4 +7,5 @@ package com.firebase.login;
 public class Config {
 
     public static final String FIREBASE_URL = "https://login-c327b.firebaseio.com/";
+    public static final String STORAGE_URL="gs://login-c327b.appspot.com/images/";
 }

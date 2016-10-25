@@ -15,16 +15,20 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.storage.FirebaseStorage;
+import com.google.firebase.storage.StorageReference;
 
 public class MainActivity extends AppCompatActivity {
 
     private Button btnChangeEmail, btnChangePassword, btnSendResetEmail, btnRemoveUser,
-            changeEmail, changePassword, sendEmail, remove, signOut,insert_data;
+            changeEmail, changePassword, sendEmail, remove, signOut, insert_data;
 
     private EditText oldEmail, newEmail, password, newPassword;
     private ProgressBar progressBar;
     private FirebaseAuth.AuthStateListener authListener;
     private FirebaseAuth auth;
+    static FirebaseStorage storage;
+    static StorageReference storageRef;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,10 +41,10 @@ public class MainActivity extends AppCompatActivity {
 
         //get firebase auth instance
         auth = FirebaseAuth.getInstance();
-
+        storage = FirebaseStorage.getInstance();
+        storageRef = storage.getReferenceFromUrl("gs://login-c327b.appspot.com");
         //get current user
         final FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-
 
         authListener = new FirebaseAuth.AuthStateListener() {
             @Override
@@ -54,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         };
+
 
         btnChangeEmail = (Button) findViewById(R.id.change_email_button);
         btnChangePassword = (Button) findViewById(R.id.change_password_button);
@@ -85,6 +90,7 @@ public class MainActivity extends AppCompatActivity {
         if (progressBar != null) {
             progressBar.setVisibility(View.GONE);
         }
+
 
         btnChangeEmail.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -215,6 +221,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 progressBar.setVisibility(View.VISIBLE);
                 if (user != null) {
+//                    storageRef.child("images").child(user.getUid()).delete();
                     user.delete()
                             .addOnCompleteListener(new OnCompleteListener<Void>() {
                                 @Override
@@ -230,6 +237,7 @@ public class MainActivity extends AppCompatActivity {
                                     }
                                 }
                             });
+
                 }
             }
         });
@@ -243,7 +251,7 @@ public class MainActivity extends AppCompatActivity {
         insert_data.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-              startActivity(new Intent(MainActivity.this,ReadWriteActivity.class));
+                startActivity(new Intent(MainActivity.this, ReadWriteActivity.class));
             }
         });
 
@@ -273,4 +281,6 @@ public class MainActivity extends AppCompatActivity {
             auth.removeAuthStateListener(authListener);
         }
     }
+
+
 }
