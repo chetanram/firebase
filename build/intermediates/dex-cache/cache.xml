@@ -75,21 +75,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/chetan/android-sdk-linux/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="/home/chetan/androidexample/firebase/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.1_d3e2f3d4d925432e5a0d6878121adab912c93ff8.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/home/chetan/.gradle/caches/modules-2/files-2.1/com.firebase/firebase-client-jvm/2.4.0/558e074f136fee609b8758480ecd00e286595137/firebase-client-jvm-2.4.0.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.1"
         sha1="558e074f136fee609b8758480ecd00e286595137">
         <dex dex="/home/chetan/androidexample/firebase/app/build/intermediates/pre-dexed/debug/firebase-client-jvm-2.4.0_249ace794e55b3a00859737c0c23a57265334c8c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/chetan/android-sdk-linux/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/home/chetan/androidexample/firebase/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.1_d3e2f3d4d925432e5a0d6878121adab912c93ff8.jar" />
     </item>
     <item
         is-multidex="false"
@@ -120,21 +120,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/chetan/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.2.2/3c8f6018eaa72d43b261181e801e6f8676c16ef6/jackson-databind-2.2.2.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="3c8f6018eaa72d43b261181e801e6f8676c16ef6">
-        <dex dex="/home/chetan/androidexample/firebase/app/build/intermediates/pre-dexed/debug/jackson-databind-2.2.2_228c2620f3901e523fbe9f8b3dd7819a633fa790.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/home/chetan/androidexample/firebase/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.2/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.1"
         sha1="4022261eeea0d92eb2997a68d2c1f084a16abad9">
         <dex dex="/home/chetan/androidexample/firebase/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-9.0.2_e873a62e6e97734863ac6aeb42031d9ae6833023.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/chetan/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.2.2/3c8f6018eaa72d43b261181e801e6f8676c16ef6/jackson-databind-2.2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="3c8f6018eaa72d43b261181e801e6f8676c16ef6">
+        <dex dex="/home/chetan/androidexample/firebase/app/build/intermediates/pre-dexed/debug/jackson-databind-2.2.2_228c2620f3901e523fbe9f8b3dd7819a633fa790.jar" />
     </item>
     <item
         is-multidex="false"
